@@ -1,19 +1,4 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-
-//namespace congintiveServicesCSDemo
-//{
-//    class Program
-//    {
-//        static void Main(string[] args)
-//        {
-//        }
-//    }
-//}
-
+﻿
 using Newtonsoft.Json.Linq;
 using System;
 using System.IO;
@@ -39,7 +24,7 @@ namespace congintiveServicesCSDemo
             //Console.WriteLine("Analyze an image:");
             //Console.Write(
             //    "Enter the path to the image you wish to analyze: ");
-            string imageFilePath = @"C:\rkh\vs2019projects\congintiveServicesCSDemo\congintiveServicesCSDemo\Parliament_Hill.jpg";
+            string imageFilePath = @"C:\rkh\vs2019projectsgit\SamplesRepo\congintiveServicesCSDemo\congintiveServicesCSDemo\Parliament_Hill.jpg";
 
             if (File.Exists(imageFilePath))
             {
